@@ -1,3 +1,3 @@
-# Setting Up Dev Environment with React, Vite, Tailwind 
+# t-shirt-mania
 
-## A quick starter template 
+## For t-shirt lovers
