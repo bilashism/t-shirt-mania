@@ -24,10 +24,10 @@ const Home = () => {
   };
   return (
     <main className="">
-      <div className="grid grid-cols-12 gap-8 container mx-auto">
+      <div className="grid lg:grid-cols-12 gap-8 container mx-auto">
         <div className="col-span-9">
           <h2>Get yours now</h2>
-          <div className="grid grid-cols-3 gap-x-4 gap-y-8">
+          <div className="grid lg:grid-cols-3 gap-x-4 gap-y-8">
             {tshirts.map(product => (
               <TShirt
                 key={product._id}
@@ -36,7 +36,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-        <div className="col-span-3">
+        <div className="col-span-3 order-first lg:order-none">
           <h2>cart</h2>
           <Cart cart={cart} handleRemoveTshirts={handleRemoveTshirts}></Cart>
         </div>
