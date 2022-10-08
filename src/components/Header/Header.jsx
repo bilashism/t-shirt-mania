@@ -21,6 +21,11 @@ const Header = () => {
         className={({ isActive }) => setActiveClass(isActive) + " transition "}>
         about
       </NavLink>
+      <NavLink
+        to="/grandpa"
+        className={({ isActive }) => setActiveClass(isActive) + " transition "}>
+        grandpa
+      </NavLink>
     </nav>
   );
 };
